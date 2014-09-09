@@ -1,0 +1,25 @@
+---
+abstract: 'FFI test for Alien::Base'
+author:
+  - 'Graham Ollis <plicease@wdlabs.com>'
+build_requires:
+  ExtUtils::CBuilder: '0'
+configure_requires:
+  Acme::Alien::DontPanic: '0.005'
+  Module::Build: '0.38'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4208, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Acme-Ford-Prefect-FFI
+provides:
+  Acme::Ford::Prefect::FFI:
+    file: lib/Acme/Ford/Prefect/FFI.pm
+    version: '0.01'
+requires:
+  FFI::Raw: '0'
+resources:
+  license: http://dev.perl.org/licenses/
+version: '0.01'

@@ -1,0 +1,47 @@
+{
+   "abstract" : "FFI test for Alien::Base",
+   "author" : [
+      "Graham Ollis <plicease@wdlabs.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4208",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-Ford-Prefect-FFI",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Acme::Alien::DontPanic" : "0.005",
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "FFI::Raw" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Acme::Ford::Prefect::FFI" : {
+         "file" : "lib/Acme/Ford/Prefect/FFI.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}
