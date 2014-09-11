@@ -1,8 +1,10 @@
+.travis.yml
 Build.PL
 Changes
 lib/Acme/Ford/Prefect/FFI.pm
 LICENSE
 MANIFEST			This list of files
-t/use.t
-META.yml
 META.json
+META.yml
+t/answer.t
+t/use.t
