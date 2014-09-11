@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@wdlabs.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4208",
+   "generated_by" : "Module::Build version 0.421",
    "license" : [
       "perl_5"
    ],
