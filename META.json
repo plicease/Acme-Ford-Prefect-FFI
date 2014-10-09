@@ -21,7 +21,7 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.005",
+            "Acme::Alien::DontPanic" : "0.008",
             "Module::Build" : "0.38"
          }
       },
@@ -34,7 +34,7 @@
    "provides" : {
       "Acme::Ford::Prefect::FFI" : {
          "file" : "lib/Acme/Ford/Prefect/FFI.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -43,5 +43,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

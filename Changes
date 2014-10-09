@@ -1,4 +1,8 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.02  Oct 9, 2014
+  - Require Acme::Alien::DontPanic 0.008
+    which correctly builds dlls on MSWin32
+
 0.01  Sep 11, 2014
   - Initial release

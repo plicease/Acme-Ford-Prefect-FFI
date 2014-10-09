@@ -37,7 +37,7 @@ L<Acme::Alien::DontPanic> which provides the needed libdontpanic library to be a
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 $VERSION = eval $VERSION;
 
 our($dll) = Acme::Alien::DontPanic->dynamic_libs;
