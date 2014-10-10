@@ -6,5 +6,6 @@ LICENSE
 MANIFEST			This list of files
 META.json
 META.yml
+t/00_diag.t
 t/answer.t
 t/use.t
