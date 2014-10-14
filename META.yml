@@ -19,6 +19,7 @@ provides:
     file: lib/Acme/Ford/Prefect/FFI.pm
     version: '0.04'
 requires:
+  Acme::Alien::DontPanic: '0.009'
   FFI::Raw: '0'
 resources:
   license: http://dev.perl.org/licenses/

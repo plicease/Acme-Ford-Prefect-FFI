@@ -26,6 +26,7 @@ my $builder = Module::Build->new(
     },
     requires          => {
       'FFI::Raw' => 0,
+      'Acme::Alien::DontPanic' => 0.009,
     },
 );
 
