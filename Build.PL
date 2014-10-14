@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
     },
     configure_requires => {
       'Module::Build' => 0.38,
-      'Acme::Alien::DontPanic' => 0.008,
+      'Acme::Alien::DontPanic' => 0.009,
     },
     build_requires    => {
       'ExtUtils::CBuilder' => 0,

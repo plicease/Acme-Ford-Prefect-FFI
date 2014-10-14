@@ -1,5 +1,8 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.04  Oct 14, 2014
+  - Require Acme::Alien::DontPanic 0.009
+
 0.03  Oct 10, 2014
   - Add ddditional diagnostic for test phase
 
