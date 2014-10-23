@@ -14,9 +14,6 @@ my $builder = Module::Build->new(
     dist_abstract     => 'FFI test for Alien::Base',
     dist_author       => 'Graham Ollis <plicease@wdlabs.com>',
     license           => 'perl',
-    requires          => {
-      'perl' => '5.008',
-    },
     configure_requires => {
       'Module::Build' => 0.38,
       'Acme::Alien::DontPanic' => 0.009,
@@ -25,6 +22,7 @@ my $builder = Module::Build->new(
       'ExtUtils::CBuilder' => 0,
     },
     requires          => {
+      'perl' => '5.008',
       'FFI::Raw' => 0,
       'Acme::Alien::DontPanic' => 0.009,
     },
