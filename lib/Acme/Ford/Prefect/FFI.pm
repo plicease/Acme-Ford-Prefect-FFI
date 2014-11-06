@@ -41,6 +41,7 @@ our $VERSION = '0.04';
 $VERSION = eval $VERSION;
 
 our($dll) = Acme::Alien::DontPanic->dynamic_libs;
+die "no dll found for libdontpanic" unless $dll;
 
 our $answer = FFI::Raw->new(
   $dll, 'answer',
