@@ -38,7 +38,6 @@ script:
   - ./Build test
   - ./Build install
 
-# for now we know ALIEN_FORCE=0 is going to fail
 env:
   - ALIEN_FORCE=1
-#  - ALIEN_FORCE=0
+  - ALIEN_FORCE=0
