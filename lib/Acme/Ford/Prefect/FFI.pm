@@ -3,7 +3,7 @@ package Acme::Ford::Prefect::FFI;
 use strict;
 use warnings;
 use Acme::Alien::DontPanic;
-use FFI::Raw;
+use FFI::Platypus::Declare;
 
 =head1 NAME
 
@@ -27,7 +27,7 @@ L<Acme::Alien::DontPanic> which provides the needed libdontpanic library to be a
 
 =over 4
 
-=item L<FFI::Raw>
+=item L<FFI::Platypus>
 
 =item L<Alien::Base>
 
@@ -42,12 +42,8 @@ $VERSION = eval $VERSION;
 
 our($dll) = Acme::Alien::DontPanic->dynamic_libs;
 die "no dll found for libdontpanic" unless $dll;
+lib $dll;
 
-our $answer = FFI::Raw->new(
-  $dll, 'answer',
-  FFI::Raw::int,
-);
-
-sub answer { $answer->() }
+function answer => [] => int => '';
 
 1;
