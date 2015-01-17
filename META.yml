@@ -5,10 +5,10 @@ author:
 build_requires:
   ExtUtils::CBuilder: '0'
 configure_requires:
-  Acme::Alien::DontPanic: '0.009'
+  Acme::Alien::DontPanic: '0.011'
   Module::Build: '0.38'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142690'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,10 +17,11 @@ name: Acme-Ford-Prefect-FFI
 provides:
   Acme::Ford::Prefect::FFI:
     file: lib/Acme/Ford/Prefect/FFI.pm
-    version: '0.04'
+    version: '0.05'
 requires:
-  Acme::Alien::DontPanic: '0.009'
+  Acme::Alien::DontPanic: '0.011'
   FFI::Raw: '0'
+  perl: '5.008'
 resources:
   license: http://dev.perl.org/licenses/
-version: '0.04'
+version: '0.05'

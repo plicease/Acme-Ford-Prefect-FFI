@@ -21,21 +21,22 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.009",
+            "Acme::Alien::DontPanic" : "0.011",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.009",
-            "FFI::Raw" : "0"
+            "Acme::Alien::DontPanic" : "0.011",
+            "FFI::Raw" : "0",
+            "perl" : "5.008"
          }
       }
    },
    "provides" : {
       "Acme::Ford::Prefect::FFI" : {
          "file" : "lib/Acme/Ford/Prefect/FFI.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -44,5 +45,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
