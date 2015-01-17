@@ -15,5 +15,10 @@ diag `ls -lR`;
 diag '';
 diag '';
 diag '';
+diag "Acme::Alien::DontPanic->dynamic_libs = ", Acme::Alien::DontPanic->dynamic_libs;
+diag '';
+diag '';
+diag '';
+
 
 pass 'and so it goes';
