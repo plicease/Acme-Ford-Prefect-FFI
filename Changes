@@ -1,5 +1,7 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+  - FFI::Platypus 0.09 compatability
+
 0.06  Jan 17, 2015
   - Migrate to FFI::Platypus
   - Non CPAN release

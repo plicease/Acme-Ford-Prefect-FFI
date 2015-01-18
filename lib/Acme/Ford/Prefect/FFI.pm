@@ -37,13 +37,13 @@ L<Acme::Alien::DontPanic> which provides the needed libdontpanic library to be a
 
 =cut
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 $VERSION = eval $VERSION;
 
 our($dll) = Acme::Alien::DontPanic->dynamic_libs;
 die "no dll found for libdontpanic" unless $dll;
 lib $dll;
 
-function answer => [] => int => '';
+attach answer => [] => int => '';
 
 1;
