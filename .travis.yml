@@ -24,6 +24,7 @@ install:
   - cpanm -n https://dist.wdlabs.com/FFI-Platypus-0.09.tar.gz
 
 perl:
+  - "5.8"
   - "5.10"
   - "5.12"
   - "5.14"
