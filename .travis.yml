@@ -21,7 +21,7 @@ install:
   - ./Build test
   - ./Build install
   - cd ../..
-  - cpanm -n https://dist.wdlabs.com/FFI-Platypus-0.08.tar.gz
+  - cpanm -n https://dist.wdlabs.com/FFI-Platypus-0.09.tar.gz
 
 perl:
   - "5.10"
