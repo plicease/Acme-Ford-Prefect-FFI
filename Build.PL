@@ -1,3 +1,9 @@
+BEGIN {
+  unless(eval q{ use 5.008001; 1}) {
+    print "Perl 5.008001 or better required\n";
+    exit;
+  }
+}
 use strict;
 use warnings;
 

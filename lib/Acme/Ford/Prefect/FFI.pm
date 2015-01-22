@@ -2,6 +2,7 @@ package Acme::Ford::Prefect::FFI;
 
 use strict;
 use warnings;
+use 5.008001;
 use Acme::Alien::DontPanic;
 use FFI::Platypus::Declare;
 
