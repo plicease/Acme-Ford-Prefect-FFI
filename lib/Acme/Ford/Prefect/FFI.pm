@@ -36,6 +36,13 @@ L<Acme::Alien::DontPanic> which provides the needed libdontpanic library to be a
 
 =back
 
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2013 Graham Ollis
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
 =cut
 
 our $VERSION = '0.07';

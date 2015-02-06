@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@wdlabs.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.421",
+   "generated_by" : "Module::Build version 0.4211",
    "license" : [
       "perl_5"
    ],
@@ -29,7 +29,7 @@
          "requires" : {
             "Acme::Alien::DontPanic" : "0.011",
             "FFI::Platypus" : "0.08",
-            "perl" : "5.008"
+            "perl" : "5.008001"
          }
       }
    },

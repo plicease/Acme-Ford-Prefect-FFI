@@ -28,7 +28,7 @@ my $builder = Module::Build->new(
       'ExtUtils::CBuilder' => 0,
     },
     requires          => {
-      'perl'                   => '5.008',
+      'perl'                   => '5.008001',
       'FFI::Platypus'          => 0.08,
       'Acme::Alien::DontPanic' => 0.011,
     },
