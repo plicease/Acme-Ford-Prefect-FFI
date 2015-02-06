@@ -17,11 +17,11 @@ name: Acme-Ford-Prefect-FFI
 provides:
   Acme::Ford::Prefect::FFI:
     file: lib/Acme/Ford/Prefect/FFI.pm
-    version: '0.07'
+    version: '0.08'
 requires:
   Acme::Alien::DontPanic: '0.011'
   FFI::Platypus: '0.08'
   perl: '5.008001'
 resources:
   license: http://dev.perl.org/licenses/
-version: '0.07'
+version: '0.08'
