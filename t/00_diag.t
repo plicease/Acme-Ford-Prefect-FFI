@@ -11,7 +11,7 @@ diag '';
 diag '';
 diag "dir = $dir";
 $CWD = $dir;
-diag `ls -lR`;
+diag `ls -laR`;
 diag '';
 diag '';
 diag '';

@@ -1,5 +1,9 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.09  Feb 12, 2015
+  - Use FFI::CheckLib experimental _r option to see
+    if we can more reliably test this via cpan testers.
+
 0.08  Feb 6, 2015
   - Add README
   - Specify license in POD

@@ -31,6 +31,7 @@ my $builder = Module::Build->new(
       'perl'                   => '5.008001',
       'FFI::Platypus'          => 0.08,
       'Acme::Alien::DontPanic' => 0.011,
+      'FFI::CheckLib'          => '0.10',
     },
 );
 

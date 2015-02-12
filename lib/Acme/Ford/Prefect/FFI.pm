@@ -3,7 +3,7 @@ package Acme::Ford::Prefect::FFI;
 use strict;
 use warnings;
 use 5.008001;
-use Acme::Alien::DontPanic;
+use Acme::Alien::DontPanic ();
 use FFI::Platypus::Declare;
 
 =head1 NAME
@@ -54,4 +54,45 @@ lib $dll;
 
 attach answer => [] => int => '';
 
+package
+  Acme::Alien::DontPanic;
+
+# this is an experiment and will likely be replaced soon
+# by something more perminent in Alien::Base itself.
+
+sub dynamic_libs
+{
+  my $class = shift;
+  if($class->install_type('system'))
+  {
+    return $class->SUPER::dynamic_libs(@_);
+  }
+  else
+  {
+    require File::Spec;
+    my $dir = $class->dist_dir;
+    if((File::Spec->splitdir((File::Spec->splitpath($dir))[1]))[-2] eq '_alien')
+    {
+      require FFI::CheckLib;
+      my $name = $class->config('ffi_name');
+      
+      unless(defined $name)
+      {
+        $name = $class->config('name');
+        # strip leading lib from things like libarchive or libffi
+        $name =~ s/^lib//;
+        # strip trailing version numbers
+        $name =~ s/-[0-9\.]+$//;
+      }
+      
+      return FFI::CheckLib::find_lib(lib => $name, libpath => $dir, _r => 1);
+    }
+    else
+    {
+      return $class->SUPER::dynamic_libs(@_);
+    }
+  }
+}
+
 1;
+
