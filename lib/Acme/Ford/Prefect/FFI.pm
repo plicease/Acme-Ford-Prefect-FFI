@@ -74,18 +74,7 @@ sub dynamic_libs
     if((File::Spec->splitdir((File::Spec->splitpath($dir))[1]))[-2] eq '_alien')
     {
       require FFI::CheckLib;
-      my $name = $class->config('ffi_name');
-      
-      unless(defined $name)
-      {
-        $name = $class->config('name');
-        # strip leading lib from things like libarchive or libffi
-        $name =~ s/^lib//;
-        # strip trailing version numbers
-        $name =~ s/-[0-9\.]+$//;
-      }
-      
-      return FFI::CheckLib::find_lib(lib => $name, libpath => $dir, _r => 1);
+      return FFI::CheckLib::find_lib(lib => '*', libpath => $dir, recursive => 1);
     }
     else
     {
