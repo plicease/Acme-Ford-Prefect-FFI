@@ -1,5 +1,9 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.10  Feb 13, 2015
+  - Use FFI::CheckLib now not experimental recursive (was _r)
+    option.
+
 0.09  Feb 12, 2015
   - Use FFI::CheckLib experimental _r option to see
     if we can more reliably test this via cpan testers.
