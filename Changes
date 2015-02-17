@@ -1,5 +1,8 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+ - Experimental work from 0.09 and 0.10 is now in Alien::Base
+   removing from this distro
+
 0.10  Feb 13, 2015
   - Use FFI::CheckLib now not experimental recursive (was _r)
     option.

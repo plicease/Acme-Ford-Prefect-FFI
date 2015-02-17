@@ -29,11 +29,13 @@ my $builder = Module::Build->new(
     },
     requires          => {
       'perl'                   => '5.008001',
-      'FFI::Platypus'          => 0.08,
-      'Acme::Alien::DontPanic' => 0.011,
+      'FFI::Platypus'          => '0.08',
+      'Acme::Alien::DontPanic' => '0.014',
       'FFI::CheckLib'          => '0.11',
     },
 );
+
+$builder->add_to_cleanup('Acme-Ford-Prefect-FFI*');
 
 $builder->create_build_script;
 

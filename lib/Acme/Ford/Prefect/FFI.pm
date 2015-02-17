@@ -54,34 +54,5 @@ lib $dll;
 
 attach answer => [] => int => '';
 
-package
-  Acme::Alien::DontPanic;
-
-# this is an experiment and will likely be replaced soon
-# by something more perminent in Alien::Base itself.
-
-sub dynamic_libs
-{
-  my $class = shift;
-  if($class->install_type('system'))
-  {
-    return $class->SUPER::dynamic_libs(@_);
-  }
-  else
-  {
-    require File::Spec;
-    my $dir = $class->dist_dir;
-    if((File::Spec->splitdir((File::Spec->splitpath($dir))[1]))[-2] eq '_alien')
-    {
-      require FFI::CheckLib;
-      return FFI::CheckLib::find_lib(lib => '*', libpath => $dir, recursive => 1);
-    }
-    else
-    {
-      return $class->SUPER::dynamic_libs(@_);
-    }
-  }
-}
-
 1;
 
