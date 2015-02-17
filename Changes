@@ -1,5 +1,6 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.11  Feb 17, 2015
  - Experimental work from 0.09 and 0.10 is now in Alien::Base
    removing from this distro
 
