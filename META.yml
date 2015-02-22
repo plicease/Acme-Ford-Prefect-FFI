@@ -17,7 +17,7 @@ name: Acme-Ford-Prefect-FFI
 provides:
   Acme::Ford::Prefect::FFI:
     file: lib/Acme/Ford/Prefect/FFI.pm
-    version: '0.14'
+    version: '0.15'
 requires:
   Acme::Alien::DontPanic: '0.014'
   FFI::CheckLib: '0.11'
@@ -25,4 +25,4 @@ requires:
   perl: '5.008001'
 resources:
   license: http://dev.perl.org/licenses/
-version: '0.14'
+version: '0.15'

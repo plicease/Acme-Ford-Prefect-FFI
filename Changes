@@ -1,5 +1,9 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.15  Feb 22, 2015
+  - Fix bug in diagnostic test that would cause it to die
+    if Acme::Alien::DontPanic was installed with install_type=system
+
 0.14  Feb 22, 2015
   - Require Acme::Alien::DontPanic 0.016 (Alien::Base 0.012)
 
