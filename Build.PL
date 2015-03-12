@@ -33,6 +33,12 @@ my $builder = Module::Build->new(
       'Acme::Alien::DontPanic' => '0.018',
       'FFI::CheckLib'          => '0.11',
     },
+    meta_merge => {
+      resources  => {
+        repository => "http://github.com/plicease/Acme-Ford-Prefect-FFI",
+        bugtracker => "http://github.com/plicease/Acme-Ford-Prefect-FFI/issues",
+      },
+    },  
 );
 
 $builder->add_to_cleanup('Acme-Ford-Prefect-FFI*');
