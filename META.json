@@ -21,13 +21,13 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.018",
+            "Acme::Alien::DontPanic" : "0.02",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.018",
+            "Acme::Alien::DontPanic" : "0.020",
             "FFI::CheckLib" : "0.11",
             "FFI::Platypus" : "0.08",
             "perl" : "5.008001"
@@ -37,7 +37,7 @@
    "provides" : {
       "Acme::Ford::Prefect::FFI" : {
          "file" : "lib/Acme/Ford/Prefect/FFI.pm",
-         "version" : "0.16"
+         "version" : "0.17"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "url" : "http://github.com/plicease/Acme-Ford-Prefect-FFI"
       }
    },
-   "version" : "0.16"
+   "version" : "0.17"
 }
