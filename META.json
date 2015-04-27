@@ -37,7 +37,7 @@
    "provides" : {
       "Acme::Ford::Prefect::FFI" : {
          "file" : "lib/Acme/Ford/Prefect/FFI.pm",
-         "version" : "0.19"
+         "version" : "0.20"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "url" : "http://github.com/plicease/Acme-Ford-Prefect-FFI"
       }
    },
-   "version" : "0.19"
+   "version" : "0.20"
 }

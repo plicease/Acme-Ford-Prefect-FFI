@@ -1,5 +1,8 @@
 Revision history for Perl module Acme::Ford::Prefect::FFI
 
+0.20  Apr 27, 2015
+  - Require Acme::Alien::DontPanic 0.023 (Alien::Base 0.017)
+
 0.19  Apr 24, 2015
   - Require Acme::Alien::DontPanic 0.022 (Alien::Base 0.017)
 
