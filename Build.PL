@@ -35,8 +35,8 @@ my $builder = Module::Build->new(
     },
     meta_merge => {
       resources  => {
-        repository => "http://github.com/plicease/Acme-Ford-Prefect-FFI",
-        bugtracker => "http://github.com/plicease/Acme-Ford-Prefect-FFI/issues",
+        repository => "http://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI",
+        bugtracker => "http://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI/issues",
         x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
         x_IRC => "irc://irc.perl.org/#native",
       },
