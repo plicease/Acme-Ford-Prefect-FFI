@@ -37,6 +37,8 @@ my $builder = Module::Build->new(
       resources  => {
         repository => "http://github.com/plicease/Acme-Ford-Prefect-FFI",
         bugtracker => "http://github.com/plicease/Acme-Ford-Prefect-FFI/issues",
+        x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
+        x_IRC => "irc://irc.perl.org/#native",
       },
     },  
 );
