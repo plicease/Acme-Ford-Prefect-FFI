@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@wdlabs.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4211",
+   "generated_by" : "Module::Build version 0.4212",
    "license" : [
       "perl_5"
    ],
@@ -21,13 +21,13 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.022",
+            "Acme::Alien::DontPanic" : "0.024",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.022",
+            "Acme::Alien::DontPanic" : "0.024",
             "FFI::CheckLib" : "0.11",
             "FFI::Platypus" : "0.08",
             "perl" : "5.008001"
@@ -37,20 +37,22 @@
    "provides" : {
       "Acme::Ford::Prefect::FFI" : {
          "file" : "lib/Acme/Ford/Prefect/FFI.pm",
-         "version" : "0.20"
+         "version" : "0.21"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/plicease/Acme-Ford-Prefect-FFI/issues"
+         "web" : "http://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI/issues"
       },
       "license" : [
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "http://github.com/plicease/Acme-Ford-Prefect-FFI"
-      }
+         "url" : "http://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI"
+      },
+      "x_IRC" : "irc://irc.perl.org/#native",
+      "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.20"
+   "version" : "0.21"
 }
