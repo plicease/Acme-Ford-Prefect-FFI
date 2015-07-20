@@ -22,7 +22,7 @@ my $builder = Module::Build->new(
     license           => 'perl',
     configure_requires => {
       'Module::Build' => 0.38,
-      'Acme::Alien::DontPanic' => 0.024,
+      'Acme::Alien::DontPanic' => 0.025,
     },
     build_requires    => {
       'ExtUtils::CBuilder' => 0,
@@ -30,7 +30,7 @@ my $builder = Module::Build->new(
     requires          => {
       'perl'                   => '5.008001',
       'FFI::Platypus'          => '0.08',
-      'Acme::Alien::DontPanic' => '0.024',
+      'Acme::Alien::DontPanic' => '0.025',
       'FFI::CheckLib'          => '0.11',
     },
     meta_merge => {

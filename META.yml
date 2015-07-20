@@ -5,7 +5,7 @@ author:
 build_requires:
   ExtUtils::CBuilder: '0'
 configure_requires:
-  Acme::Alien::DontPanic: '0.024'
+  Acme::Alien::DontPanic: '0.025'
   Module::Build: '0.38'
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4212, CPAN::Meta::Converter version 2.150001'
@@ -17,9 +17,9 @@ name: Acme-Ford-Prefect-FFI
 provides:
   Acme::Ford::Prefect::FFI:
     file: lib/Acme/Ford/Prefect/FFI.pm
-    version: '0.21'
+    version: '0.22'
 requires:
-  Acme::Alien::DontPanic: '0.024'
+  Acme::Alien::DontPanic: '0.025'
   FFI::CheckLib: '0.11'
   FFI::Platypus: '0.08'
   perl: '5.008001'
@@ -29,4 +29,4 @@ resources:
   bugtracker: http://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI
-version: '0.21'
+version: '0.22'
