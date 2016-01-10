@@ -30,7 +30,7 @@ my $builder = Module::Build->new(
     requires          => {
       'perl'                   => '5.008001',
       'FFI::Platypus'          => '0.08',
-      'Acme::Alien::DontPanic' => '0.025',
+      'Acme::Alien::DontPanic' => '0.026',
       'FFI::CheckLib'          => '0.11',
     },
     meta_merge => {
