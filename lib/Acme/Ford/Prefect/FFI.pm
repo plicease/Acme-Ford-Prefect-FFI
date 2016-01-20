@@ -45,7 +45,7 @@ it under the same terms as Perl itself.
 
 =cut
 
-our $VERSION = '0.23';
+our $VERSION = '0.24';
 $VERSION = eval $VERSION;
 
 our($dll) = Acme::Alien::DontPanic->dynamic_libs;
