@@ -1,3 +1,4 @@
+.appveyor.yml
 .gitattributes
 Build.PL
 Changes
