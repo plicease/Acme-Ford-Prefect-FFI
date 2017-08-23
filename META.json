@@ -21,7 +21,7 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.042",
+            "Acme::Alien::DontPanic" : "0.044",
             "Module::Build" : "0.38"
          }
       },

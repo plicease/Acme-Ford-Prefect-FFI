@@ -1,4 +1,4 @@
-use Test2::V0;
+use Test2::V0 -no_srand => 1;
 use 5.008001;
 use Acme::Ford::Prefect::FFI;
 
