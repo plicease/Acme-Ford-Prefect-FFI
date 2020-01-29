@@ -1,8 +1,5 @@
-/Build
-/*.bak
-/*.tmp
-/MYMETA.json
-/MYMETA.yml
-/_build
-/blib
 /Acme-Ford-Prefect-FFI-*
+/.build
+*.bak
+*.tmp
+*.swp
