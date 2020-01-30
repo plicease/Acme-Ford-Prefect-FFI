@@ -5,9 +5,9 @@ FFI test module for Alien::Base
 # SYNOPSIS
 
 ```perl
-use Acme::Ford::Prefect;
+use Acme::Ford::Prefect::FFI;
 
-my $answer = Acme::Ford::Prefect::answer(); # == 42 of course
+my $answer = Acme::Ford::Prefect::FFI::answer(); # == 42 of course
 ```
 
 # DESCRIPTION
@@ -23,7 +23,7 @@ This module is a toy module to test the efficacy of the [Alien::Base](https://me
 ## answer
 
 ```perl
-my $answer = Acme::Ford::Prefect::answer();
+my $answer = Acme::Ford::Prefect::FFI::answer();
 ```
 
 Returns the answer to life the universe and everything.  Not exported.

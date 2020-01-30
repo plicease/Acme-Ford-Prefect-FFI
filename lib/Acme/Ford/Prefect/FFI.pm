@@ -11,9 +11,9 @@ use FFI::Platypus::Declare;
 
 =head1 SYNOPSIS
 
- use Acme::Ford::Prefect;
+ use Acme::Ford::Prefect::FFI;
  
- my $answer = Acme::Ford::Prefect::answer(); # == 42 of course
+ my $answer = Acme::Ford::Prefect::FFI::answer(); # == 42 of course
 
 =head1 DESCRIPTION
 
@@ -27,7 +27,7 @@ L<Acme::Alien::DontPanic> which provides the needed libdontpanic library to be a
 
 =head2 answer
 
- my $answer = Acme::Ford::Prefect::answer();
+ my $answer = Acme::Ford::Prefect::FFI::answer();
 
 Returns the answer to life the universe and everything.  Not exported.
 
