@@ -2,6 +2,9 @@ Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
 
+2.0000    2020-02-02 06:31:10 -0700
+  - Require Acme::Alien::DontPanic 2.0000 (Alien::Build 2.00)
+
 1.9800    2020-01-30 08:11:32 -0700
   - Require Acme::Alien::DontPanic 1.9800 (Alien::Build 1.98)
 
