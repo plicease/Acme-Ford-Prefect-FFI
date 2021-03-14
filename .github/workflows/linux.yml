@@ -17,90 +17,90 @@ jobs:
       matrix:
         cip:
           - tag: "static"
-          - env: "'ALIEN_INSTALL_TYPE=share"
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.33"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.33"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.32"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.32"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.30"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.30"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.28"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.28"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.26"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.26"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.24"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.24"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.22"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.22"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.20"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.20"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.18"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.18"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.16"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.16"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.14"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.14"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.12"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.12"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.10"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.10"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=share"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=share"
             tag: "5.8"
-            tmpdir: /home/cip/tmp'
-          - env: "'ALIEN_INSTALL_TYPE=system"
+            tmpdir: /home/cip/tmp
+          - env: "ALIEN_INSTALL_TYPE=system"
             tag: "5.8"
-            tmpdir: /home/cip/tmp'
+            tmpdir: /home/cip/tmp
 
     env:
       CIP_ENV: ${{ matrix.cip.env }}
